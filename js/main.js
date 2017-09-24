@@ -12,9 +12,9 @@ function bookSearch() {
 				var newDiv = document.createElement('div')
 				newDiv.className = "col-md-4 animated fadeInDownBig"
 				var newH2 = document.createElement('h3')
-				var newP = document.createElement('h3')
+				var newP = document.createElement('h5')
 				var newImg = document.createElement('img')
-				var author = document.createTextNode(data.items[i].volumeInfo.authors[0])
+				var author = document.createTextNode('Author: ' + data.items[i].volumeInfo.authors[0])
 				var title = document.createTextNode(data.items[i].volumeInfo.title)
 
 				newH2.appendChild(title)

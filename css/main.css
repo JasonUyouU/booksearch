@@ -1,3 +1,47 @@
+* {
+	font-family: 'Quicksand', sans-serif;
+}
+body {
+	background-image: url('../img/background.jpg');
+}
+nav	{
+	height: 80px;
+	display: inline-block;
+	background-color: #7f3d17;
+	width: 100%;
+}
+nav img {
+	margin-left: 50px;
+	height: 70px;
+}
+nav h2 {
+	margin-left: 20px;
+	margin-top:20px;
+	font-size: 25px;
+	display: inline-block;
+	color: #fff;
+}
+nav input {
+	border-radius: 5px;
+	border: none;
+	margin-left: 20px;
+	padding: 8px 5px;
+}
+nav button {
+	border: none;
+	padding: 5px 10px;
+	margin-left: 10px;
+	color: #7f3d17;
+	background-color: #f3e8cc;
+}
+nav button:hover {
+	cursor: pointer;
+}
+
 div {
 	display: inline-block;
+}
+div.col-md-4 {
+	text-align: center;
+	padding: 30px 0;
 }
